@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/estilos.css">
+</head>
+<body>
+  <div class="fondo"></div>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <nav>
+      <a href="/">Inicio</a>
+      <a href="/novedades.html">Novedades</a>
+      <a href="/Informacionsobrelapagina.html">Información</a>
+      <a href="/contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>{{ content }}</main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} Departamento de Informática - EEST N°4</p>
+  </footer>
+</body>
+</html>

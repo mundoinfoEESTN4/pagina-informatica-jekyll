@@ -1,7 +1,0 @@
-title: "Departamento de Informática - EEST N°4"
-description: "Noticias, proyectos y actividades del Departamento de Informática"
-url: "https://mundoinfoeestn4.github.io/pagina-informatica-jekyll"
-theme: minima
-markdown: kramdown
-plugins:
-  - jekyll-feed
